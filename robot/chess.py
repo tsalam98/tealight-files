@@ -18,7 +18,7 @@ def rowsr():
     move()
   turn(1)
   for j in range(0,32):
-    move(32)
+    move()
 
 
 

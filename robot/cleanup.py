@@ -9,3 +9,6 @@ from tealight.robot import (move,
 # Add your code here
 if touch() == 'water':
   move()
+
+if left_Side() == 'water':
+  move()

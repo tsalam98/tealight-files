@@ -46,7 +46,14 @@ def columnsd():
   turn(-1)
   for k in range(0,30):
     move()
-
+ 
+def columnsu():
+  turn(1)
+  for n in range(0,4):
+    move()
+  turn(1)
+  for k in range(0,30):
+    move()
 
 eatoutside()
 eatoutside()
@@ -60,3 +67,4 @@ rowsr()
 rowsl()
 rowsr()
 columnsd()
+columnsu()

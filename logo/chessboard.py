@@ -28,4 +28,4 @@ move(side)
 turn(90)
 move(8*side)
 turn(-180)
-more_squares
+more_squares(side)

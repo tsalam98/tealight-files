@@ -36,12 +36,15 @@ def rowsr():
   for j in range(0,32):
     move()
 
-def columns():
-  turn(1)
-  for n in range(0,4):
+def columnsd():
+  turn(-1)
+  for n in range(0,3):
     move()
-  turn(1)
-  for j in range(0,32):
+  turn(-1)
+  for j in range(0,3):
+    move()
+  turn(-1)
+  for k in range(0,31):
     move()
 
 
@@ -56,3 +59,4 @@ rowsl()
 rowsr()
 rowsl()
 rowsr()
+columnsd()

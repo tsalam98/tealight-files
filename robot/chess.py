@@ -27,7 +27,6 @@ def rowsl():
   turn(-1)
   for j in range(0,32):
     move()
-  turn(-1)
 
 
 
@@ -37,3 +36,6 @@ eatoutside()
 eatoutside()
 rowsr()
 rowsl()
+rowsr()
+rowsl()
+rowsr()

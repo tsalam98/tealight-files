@@ -12,14 +12,16 @@ def eatoutside():
     move()
   turn(1)
 
-eatloop()
-eatloop()
-eatloop()
-eatloop()
-
 def rows():
   for n in range(0,4):
     move()
   turn(1)
   turn(-1)
- 
+
+eatoutside()
+eatoutside()
+eatoutside()
+eatoutside()
+rows()
+rows()
+rows()

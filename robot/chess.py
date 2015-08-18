@@ -14,9 +14,11 @@ distance = 10
 for n in range(0, 32):
   move()
 
-def squares_loop(side):
+def eatloop():
   for i in range(0,10):
     turn(-1)
     distance = 10
     for n in range(0, 32):
       move()
+
+eatloop

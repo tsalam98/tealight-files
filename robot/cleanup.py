@@ -10,5 +10,5 @@ from tealight.robot import (move,
 if touch() == 'water':
   move()
 
-if left_Side() == 'water':
+if right_Side() == 'water':
   move()

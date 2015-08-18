@@ -26,6 +26,6 @@ def rows_squares(side):
     turn(90)
     
     
-more_squares(20)
+rows_squares(20)
     
 

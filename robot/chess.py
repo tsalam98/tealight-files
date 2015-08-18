@@ -13,7 +13,7 @@ def eatoutside():
   turn(1)
   
 
-def rowsr():
+def rowsr_():
   for n in range(0,4):
     move()
   turn(1)
@@ -28,12 +28,19 @@ def rowsl():
   for j in range(0,32):
     move()
 
+def rowsr():
+  turn(1)
+  for n in range(0,4):
+    move()
+  turn(1)
+  for j in range(0,32):
+    move()
 
 
 eatoutside()
 eatoutside()
 eatoutside()
 eatoutside()
-rowsr()
+rowsr_()
 rowsl()
 rowsr()

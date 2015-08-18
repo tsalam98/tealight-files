@@ -9,5 +9,7 @@ from tealight.robot import (move,
 # Add your code here
 move
 turn(1)
-move
-move
+
+distance = 10
+for n in range(0, 30):
+  move(30)

@@ -20,4 +20,4 @@ def eatloop():
     distance = 10
     move()
 
-eatloop
+eatloop()

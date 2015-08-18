@@ -1,1 +1,1 @@
-print "A new file!"
+Move(1000)

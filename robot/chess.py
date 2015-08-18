@@ -10,6 +10,6 @@ from tealight.robot import (move,
 def eatloop():
   for n in range(0,32):
     move()
-  turn(-1)
+  turn(1)
 
 eatloop()

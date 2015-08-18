@@ -19,7 +19,7 @@ def rows_squares(side):
     more_squares(side)
     turn(90)
     move(side)
-    turn(90)
+    turn(270)
     
 rows_squares(20)
     

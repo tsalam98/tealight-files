@@ -16,8 +16,7 @@ for n in range(0, 32):
 
 def eatloop():
   for n in range(0,32):
-    turn(-1)
-    distance = 32
     move()
+  turn(-1)
 
 eatloop()

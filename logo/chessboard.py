@@ -10,4 +10,9 @@ def square(side):
     
 def more_squares(side):
   for i in range(0,8):
-  
+    square(side)
+    move(side)
+    
+    
+    
+more_squares(20)

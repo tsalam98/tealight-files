@@ -6,4 +6,4 @@ def polygon(edges, size):
     move(size)
     turn(angle)
     
-polygon(infinite, 150)
+polygon(1000000000000, 150)

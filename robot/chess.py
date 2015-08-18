@@ -18,14 +18,3 @@ turn(-1)
 distance = 10
 for n in range(0, 32):
   move()
-
-turn(-1)
-distance = 10
-for n in range(0, 32):
-  move()
-  
-turn(-1)
-distance = 10
-for n in range(0, 28):
-  move()
-

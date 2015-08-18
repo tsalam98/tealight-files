@@ -19,7 +19,13 @@ def more_squares(side):
    # turn(180)
     #move(20)
     
+side=20
 
-more_squares(20)
+more_squares(side)
     
-move(10)
+turn(90)
+move(side)
+turn(90)
+move(8*side)
+turn(-180)
+more_squares

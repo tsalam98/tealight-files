@@ -41,10 +41,10 @@ def columnsd():
   for n in range(0,3):
     move()
   turn(-1)
-  for j in range(0,3):
+  for j in range(0,4):
     move()
   turn(-1)
-  for k in range(0,31):
+  for k in range(0,32):
     move()
 
 

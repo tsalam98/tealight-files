@@ -11,5 +11,5 @@ move
 turn(1)
 
 distance = 10
-for n in range(0, 100):
+for n in range(0, 50):
   move()

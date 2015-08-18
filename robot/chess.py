@@ -13,3 +13,4 @@ def eatloop():
   turn(1)
 
 eatloop()
+eatloop()

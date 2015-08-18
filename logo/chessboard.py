@@ -12,6 +12,8 @@ def more_squares(side):
   for i in range(0,8):
     square(side)
     move(side)
+  turn(180)
+  move(160)
     
     
 def rows_squares(side):

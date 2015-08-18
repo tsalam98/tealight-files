@@ -57,10 +57,7 @@ def columnsu():
     
 def columnsd():
   turn(-1)
-  for n in range(0,3):
-    move()
-  turn(-1)
-  for j in range(0,4):
+  for n in range(0,4):
     move()
   turn(-1)
   for k in range(0,30):
@@ -79,3 +76,8 @@ rowsl()
 rowsr()
 columnsd_()
 columnsu()
+columnsd()
+columnsu()
+columnsd()
+columnsu()
+columnsd()

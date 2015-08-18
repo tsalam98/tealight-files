@@ -22,10 +22,13 @@ def more_squares(side):
 side=20
 
 more_squares(side)
-    
-turn(90)
-move(side)
-turn(90)
-move(8*side)
-turn(-180)
+
+def squares_loop:
+  for i in range(0,10):
+    turn(90)
+    move(side)
+    turn(90)
+    move(8*side)
+    turn(-180)
+
 more_squares(side)

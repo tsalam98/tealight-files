@@ -8,4 +8,6 @@ def square(side):
 
    
     
-square(90)
+def more_squares(side):
+  for i in range(0,8):
+  

@@ -44,7 +44,7 @@ def columnsd():
   for j in range(0,4):
     move()
   turn(-1)
-  for k in range(0,32):
+  for k in range(0,30):
     move()
 
 

@@ -7,5 +7,5 @@ from tealight.robot import (move,
                             right_side)
 
 # Add your code here
-if touch() == 'water'
+if touch() == 'water':
   move()

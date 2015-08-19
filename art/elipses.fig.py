@@ -2,10 +2,10 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 from math import sin, cos, pi
 
-def elipses(x, y, width, height):
+def ellipses(x, y, width, height):
   
   color(c)
 
-elipses(300, 300, 100, 50, "red")
-elipses(300, 400, 200, 100, "orange")
-elipses(450, 200, 125, 30, "green")
+ellipses(300, 300, 100, 50, "red")
+ellipses(300, 400, 200, 100, "orange")
+ellipses(450, 200, 125, 30, "green")

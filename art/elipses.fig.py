@@ -4,7 +4,7 @@ from math import sin, cos, pi
 
 def circle(x, y, width, height):
   
-  color(c)
+  color("red")
 
 circle(300, 300, 100, 50,)
 circle(300, 400, 200, 100,)

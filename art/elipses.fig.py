@@ -6,6 +6,6 @@ def elipses(x, y, width, height):
   
   color(c)
 
-elipses(300, 300, "blue", 100, 50)
-elipses(600, 400, "purple", 200, 100)
-elipses(450, 200, "orange", 125, 30)
+elipses(300, 300, 100, 50, "red")
+elipses(300, 400, 200, 100, "orange")
+elipses(450, 200, 125, 30, "green")

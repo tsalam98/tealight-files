@@ -21,6 +21,7 @@ def handle_mousemove(x,y,button):
     
 def handle_mousedown(x,y,button):
   color_click(x,y)
+  thick_click(x,y)
   global x0,y0
   print x,y,button
   if button == 'left':

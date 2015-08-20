@@ -15,7 +15,7 @@ def handle_mousemove(x,y,button):
     color(brushcolor)
     color("hsl(%d,100%%,50%%)" % hue)
   
-  hue += 1
+    hue += 1
   
     line_width(tool)
     line(x0,y0,x,y)

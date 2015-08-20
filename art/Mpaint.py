@@ -1,4 +1,5 @@
 from tealight.art import *
+import github.alexinder.art.alexpaint
 
 
 #tool = 60

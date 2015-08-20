@@ -39,7 +39,9 @@ def handle_mousedown(x,y,button):
   if button == 'left':
     x0 = x
     y0 = y
-  if button == 'right':
+  elif button == 'right':
+    x0 = x
+    y0 = y
   else:
     print("press down")
     

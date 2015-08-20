@@ -3,7 +3,7 @@ from tealight.art import *
 
 tool = 60
 hue = 0
-brushcolor("hsl(%d,100%%,50%%)" % hue)
+brushcolor = color("hsl(%d,100%%,50%%)" % hue)
 hue = hue +1 
 
 x0 = 0

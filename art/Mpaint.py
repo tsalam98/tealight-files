@@ -6,6 +6,7 @@ brushcolor = "red"
 
 def handle_mousemove(x,y,button):
   print x,y,button
-  if button == left:
+  if button == 'left':
     tool, brushcolor
-  else : print ("press down")
+  else : 
+    print ("press down")

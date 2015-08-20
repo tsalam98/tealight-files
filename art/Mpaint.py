@@ -2,7 +2,7 @@ from tealight.art import (color, line, spot, circle, rectangle, box, image, text
 
 
 tool = 10
-brushcolor = "pink"
+brushcolor = "green"
 
 def handle_mousemove(x,y,button):
   print x,y,button

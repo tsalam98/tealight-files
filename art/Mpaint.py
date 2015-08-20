@@ -9,7 +9,7 @@ x0 = 0
 y0 = 0
 
 def handle_mousemove(x,y,button):
-  global x0, y0
+  global x0, y0, hue
   print x,y,button
   if button == 'left':
     color(brushcolor)

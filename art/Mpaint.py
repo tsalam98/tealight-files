@@ -12,6 +12,7 @@ def handle_mousemove(x,y,button):
   print x,y,button
   if button == 'left':
     color(brushcolor)
+    line_width(tool)
     line(x0,y0,x,y)
     x0 = x
     y0 = y

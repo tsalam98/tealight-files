@@ -4,3 +4,5 @@ from tealight.art import (color, line, spot, circle, rectangle, box, image, text
 tool = "small"
 brushcolor = "red"
 
+def handle_mousemove(x,y):
+  print x,y

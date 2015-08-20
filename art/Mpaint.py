@@ -22,11 +22,3 @@ def handle_mousemove(x,y,button):
     print ("press down")
 
     
-def handle_mousedown(x,y,button):
-  global x0,y0
-  print x,y,button
-  if button == 'left':
-    x0 = x
-    y0 = y
-  else:
-    print("press down")

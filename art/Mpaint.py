@@ -4,10 +4,13 @@ from tealight.art import (color, line, spot, circle, rectangle, box, image, text
 tool = 10
 brushcolor = "purple"
 
+x0 = 0
+y0 = 0
+
 def handle_mousemove(x,y,button):
   print x,y,button
   if button == 'left':
     color(brushcolor)
-    line(10,x,1000, tool )
+    line(x0,y0,x,y)
   else : 
     print ("press down")

@@ -14,5 +14,7 @@ def handle_mousedown(x,y,button):
   if button == 'left':
     color(brushcolor)
     line(x0, y0,x,y)
+    x0 = x
+    y0 = y
   else:
     print("press down")

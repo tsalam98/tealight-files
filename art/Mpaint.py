@@ -1,7 +1,7 @@
 from tealight.art import (color, line, spot, circle, rectangle, box, image, text, background, line)
 
 
-tool = 30
+tool = 60
 brushcolor = "purple"
 
 x0 = 0

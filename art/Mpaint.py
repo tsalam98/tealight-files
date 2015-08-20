@@ -39,4 +39,4 @@ def handle_mousedown(x,y,button):
     print("press down")
     
     
-rectangle(225, 0, 1000, 800)
+rectangle(225, 0, 900, 800)

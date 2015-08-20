@@ -4,7 +4,7 @@ from tealight.art import *
 tool = 60
 hue = 0
 brushcolor = color("hsl(%d,100%%,50%%)" % hue)
-hue = hue +1 
+hue = hue + 1 
 
 x0 = 0
 y0 = 0

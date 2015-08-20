@@ -1,5 +1,6 @@
 from tealight.art import *
 from github.alexinder.art.alexpaint import *
+from github.bbenny0211.art.paint import *
 
 hue = 0
 x0 = 0

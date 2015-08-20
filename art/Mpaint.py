@@ -2,7 +2,7 @@ from tealight.art import *
 
 
 tool = 60
-brushcolor = "purple"
+brushcolor = "rainb"
 
 x0 = 0
 y0 = 0

@@ -8,6 +8,6 @@ def handle_mousemove(x,y,button):
   print x,y,button
   if button == 'left':
     color(brushcolor)
-    line(x,y,10, tool )
+    line(10,x,y, tool )
   else : 
     print ("press down")

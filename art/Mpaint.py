@@ -3,7 +3,7 @@ from tealight.art import *
 
 tool = 60
 hue = 0
-brushcolor =
+brushcolor = "red"
 
 x0 = 0
 y0 = 0

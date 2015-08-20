@@ -40,6 +40,7 @@ def handle_mousedown(x,y,button):
     x0 = x
     y0 = y
   elif button == 'right':
+    c = 'white'
     x0 = x
     y0 = y
   else:

@@ -1,4 +1,4 @@
-from tealight.art import (color, line, spot, circle, rectangle, box, image, text, background, line)
+from tealight.art import *
 
 
 tool = 60

@@ -13,7 +13,7 @@ def handle_mousemove(x,y,button):
   print x,y,button
   if button == 'left':
     color(brushcolor)
-    color("hsl(%d,100%%,50%%)" % hue)
+    #color("hsl(%d,100%%,50%%)" % hue)
   
     hue += 1
   

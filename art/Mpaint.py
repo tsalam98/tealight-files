@@ -1,10 +1,7 @@
 from tealight.art import *
 from github.alexinder.art.alexpaint import *
 
-
-#tool = 60
 hue = 0
-#brushcolor = "red"
 x0 = 0
 y0 = 0
 
@@ -20,7 +17,6 @@ def handle_mousemove(x,y,button):
     y0 = y
   else : 
     print ("press down")
-
     
 def handle_mousedown(x,y,button):
   color_click(x,y)

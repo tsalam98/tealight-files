@@ -20,7 +20,9 @@ def handle_mousemove(x,y,button):
     print ("press down")
     
 def handle_mousedown(x,y,button):
-  color_click(x,y)
+  new_color = color_click(x,y)
+  if new_color != None:
+    color(new_color)
   thick_click(x,y)
   global x0,y0
   #print x,y,button

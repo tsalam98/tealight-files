@@ -29,7 +29,10 @@ def blank(bx,by, button):
 def handle_mousemove(x,y,button):
   global x0, y0, hue, rainbow, c
   #print x,y,button
+  
   if button == 'left':
+    if x < rx:
+      return
     if rainbow :
       color("hsl(%d,100%%,50%%)" % hue)
     else:

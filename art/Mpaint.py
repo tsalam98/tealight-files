@@ -43,7 +43,7 @@ def handle_mousemove(x,y,button):
     x0 = x
     y0 = y
   elif button == 'right':
-    c = 'white'
+    c = "white"
   else : 
     print ("press down")
     

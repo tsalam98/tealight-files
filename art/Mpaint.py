@@ -60,7 +60,10 @@ def handle_mousedown(x,y,button):
   global x0,y0
   #print x,y,button
   if button == 'left':
-    x0 = x
+    if x<170:
+      x0 = 170
+    else
+      x0 = x
     y0 = y
   elif button == 'right':
     c = 'white'

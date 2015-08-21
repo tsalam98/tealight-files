@@ -53,5 +53,8 @@ rh= 815
 
 rectangle(rx, ry, rw, rh)
 def canvas_click(mx,my):
-  if mx < rx and mx > (rx + rw) and my < ry and my > (ry + rh):
+  global x, y, button
+  if mx > rx and mx < (rx + rw) and my > ry and my < (ry + rh):
+    handle_mousemove(x,y,button)
+  else:
     return

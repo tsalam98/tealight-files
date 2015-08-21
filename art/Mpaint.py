@@ -45,11 +45,13 @@ def handle_mousedown(x,y,button):
     y0 = y
   else:
     print("press down")
+    
 rx = 170
 ry = 0
 rw = 1050
 rh= 815
+
 rectangle(rx, ry, rw, rh)
 def canvas_click(mx,my):
-  if mx > rx and mx < (rx + rw) and my > ry and my < (ry + rh):
-    
+  if mx < rx and mx > (rx + rw) and my < ry and my > (ry + rh):
+    return

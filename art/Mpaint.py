@@ -19,8 +19,8 @@ rectangle(rx, ry, rw, rh)
 color("pink")
 text(30, 785, "new screen")
 
-def blank(bx,by):
-  if bx>30 and bx>785 and by>145 and by<815:
+def blank(bx,by, button):
+  if bx>30 and bx>785 and by>145 and by<815 and button == 'left':
     color("white")
     rectangle(rx, ry, rw, rh)
   else:

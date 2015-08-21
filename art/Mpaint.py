@@ -10,7 +10,7 @@ x0 = 0
 y0 = 0
 rainbow = False
 
-colour ("pink")
+
 text(30, 785, "Easer")
 def handle_mousemove(x,y,button):
   global x0, y0, hue, rainbow, c

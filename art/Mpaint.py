@@ -8,6 +8,7 @@ hue = 0
 x0 = 0
 y0 = 0
 rainbow = False
+c=0
 
 rx = 170
 ry = 0

@@ -4,6 +4,7 @@ from github.bbenny0211.art.paint import *
 
 rectangle (15, 780, 150, 35)
 box (30, 785, 115, 25)
+text(30, 785, "Easer")
 hue = 0
 x0 = 0
 y0 = 0

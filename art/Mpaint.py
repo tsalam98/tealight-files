@@ -4,14 +4,27 @@ from github.bbenny0211.art.paint import *
 
 rectangle (15, 780, 150, 35)
 box (30, 785, 115, 25)
-text(30, 785, "Easer")
 hue = 0
 x0 = 0
 y0 = 0
 rainbow = False
 
+rx = 170
+ry = 0
+rw = 1050
+rh= 815
+
+rectangle(rx, ry, rw, rh)
+
 color("pink")
-text(30, 785, "Easer")
+text(30, 785, "new screen")
+
+def blank(bx,by):
+  if bx>30 and bx>785 and by>145 and by<815):
+    draw rectangle(rx, ry, rw, rh)
+  else:
+    return
+
 def handle_mousemove(x,y,button):
   global x0, y0, hue, rainbow, c
   #print x,y,button
@@ -51,12 +64,7 @@ def handle_mousedown(x,y,button):
   else:
     print("press down")
     
-rx = 170
-ry = 0
-rw = 1050
-rh= 815
 
-rectangle(rx, ry, rw, rh)
 
 #def canvas_click(mx,my):
   #global x, y, button

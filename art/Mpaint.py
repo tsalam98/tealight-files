@@ -2,7 +2,7 @@ from tealight.art import *
 from github.alexinder.art.alexpaint import *
 from github.bbenny0211.art.paint import *
 
-rectangle (15, 780, 125, 35)
+rectangle (15, 780, 150, 35)
 hue = 0
 x0 = 0
 y0 = 0

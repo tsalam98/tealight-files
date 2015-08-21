@@ -3,14 +3,15 @@ from github.alexinder.art.alexpaint import *
 from github.bbenny0211.art.paint import *
 
 rectangle (15, 780, 150, 35)
-
+box (30, 785, 115, 25)
 text(30, 785, "Easer")
 hue = 0
 x0 = 0
 y0 = 0
 rainbow = False
 
-
+colour "pink"
+text(30, 785, "Easer")
 def handle_mousemove(x,y,button):
   global x0, y0, hue, rainbow, c
   #print x,y,button

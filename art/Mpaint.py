@@ -20,7 +20,7 @@ color("pink")
 text(30, 785, "new screen")
 
 def blank(bx,by):
-  if bx>30 and bx>785 and by>145 and by<815):
+  if bx>30 and bx>785 and by>145 and by<815:
     draw rectangle(rx, ry, rw, rh)
   else:
     return

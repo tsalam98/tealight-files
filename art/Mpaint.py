@@ -64,7 +64,7 @@ def handle_mousedown(x,y,button):
     y0 = y
   else:
     print("press down")
-   if x>=30 and y>=785 and x<=145 and y<=815 and button == 'left':
+  if x>=30 and y>=785 and x<=145 and y<=815 and button == 'left':
     color("white")
     box (30, 785, 115, 25)
   

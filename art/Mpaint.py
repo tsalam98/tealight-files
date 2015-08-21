@@ -44,7 +44,7 @@ def handle_mousemove(x,y,button):
     print ("press down")
     
 def handle_mousedown(x,y,button):
-  global rainbow, c
+  global rainbow, c, rx, ry, rw, rh
   new_color = color_click(x,y)
   if new_color != None:
     if new_color == "rainbow":

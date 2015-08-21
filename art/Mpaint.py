@@ -62,7 +62,7 @@ def handle_mousedown(x,y,button):
   if button == 'left':
     if x<170:
       x0 = 170
-    else
+    else:
       x0 = x
     y0 = y
   elif button == 'right':

@@ -2,10 +2,12 @@ from tealight.art import *
 from github.alexinder.art.alexpaint import *
 from github.bbenny0211.art.paint import *
 
+rectangle (15, 790, 20, 125)
 hue = 0
 x0 = 0
 y0 = 0
 rainbow = False
+
 
 def handle_mousemove(x,y,button):
   global x0, y0, hue, rainbow, c
